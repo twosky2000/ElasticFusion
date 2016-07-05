@@ -17,7 +17,6 @@ elif [[ $version == *"15.04"* ]] ; then
     sudo apt-get update
 else
     echo "Don't use this on anything except 14.04 or 15.04"
-    exit
 fi
 
 sudo apt-get install -y cmake-qt-gui git build-essential libusb-1.0-0-dev libudev-dev openjdk-7-jdk freeglut3-dev libglew-dev cuda-7-5 libsuitesparse-dev libeigen3-dev zlib1g-dev libjpeg-dev
